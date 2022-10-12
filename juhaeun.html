@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+   <head>
+       <meta charset="utf-8">
+<!--       여기는 웹페이지 제목-->
+       <title>Dument</title>  
+        <style>
+/*            선택자를 검색기 제목(h1)으로*/
+            h1 {
+                font-size: 90px;
+                text-align: center;
+                margin-top: 300px
+            }
+            h1 span:nth-child(1) {
+                color: blue;
+            }
+            h1 span:nth-child(2) {
+                color: red;
+            }
+            h1 span:nth-child(3) {
+                color: yellow;
+            }
+            h1 span:nth-child(4) {
+                color: blue
+            }
+            h1 span:nth-child(5) {
+                color: green
+            }
+            h1 span:nth-child(6) {
+                color: red
+            }
+            input[type="text"] {
+                border-radius: 80px;
+                border-color: blue;
+                width: 500px;
+            }
+            .search-bar {text-align: center;}
+          
+       </style>
+   </head>
+   <body>
+<!--       한미고 검색기 뼈대 만들기-->
+       <h1>
+            <span>한</span>
+            <span>미</span>
+            <span>고</span>
+            <span>검</span>
+            <span>색</span>
+            <span>기</span>
+       </h1>
+<!--      검색창 만들기 -->
+       <form action="#" method="get">
+           <div class="search-bar">
+               <input type="text" name="q" size="65px" placeholder="한미고 검색 또는 URL 입력">
+           </div>
+       </form>
+   </body>
+</html>
