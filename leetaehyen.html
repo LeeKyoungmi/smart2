@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {text-align: center; font-family: OAGothic-ExtraBold; margin-top: 400px;}
+        h1 {font-size: 100px;}
+        @font-face {
+    font-family: 'OAGothic-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/OAGothic-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;}
+         h1>span:nth-child(1){
+            color:red;
+         }
+         h1>span:nth-child(2){
+            color:green;
+         }
+         h1>span:nth-child(3){
+            color:yellow;
+         }
+         h1>span:nth-child(4){
+            color:red;
+         }
+         h1>span:nth-child(5){
+            color:blue;
+         }
+         h1>span:nth-child(6){
+            color:green;
+         }
+        input {border-radius :20px; height: 40px;}
+    </style>
+</head>
+<body>
+    <!-- 여기는 제목 -->
+    <h1>
+        <span>한</span>
+        <span>미</span>
+        <span>고</span>
+        <span>검</span>
+        <span>색</span>
+        <span>기</span>
+    </h1>
+    <!-- 여기는 검색창 -->
+    <form action="https://www.google.com/search" method="get">
+        <div class="kk">
+            <input type="text" name="q" size="65px" placeholder="Google 검색 또는 URL 입력">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한미고검색기</title>
+
+    <style>
+
+@font-face {
+    font-family: 'OAGothic-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/OAGothic-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+        h1{font-family: 'OAGothic-ExtraBold';}
+            
+
+        h1{
+            font-size: 90px;
+            text-align: center;
+            margin-top: 300px;
+        }
+
+        span:nth-child(1){
+            color: red;
+        }
+        span:nth-child(2){
+            color: rgb(255, 196, 0);
+        }
+        span:nth-child(3){
+            color: rgb(0, 89, 255);
+        }
+        span:nth-child(4){
+            color: red;
+        }
+        span:nth-child(5){
+            color: rgb(255, 196, 0);
+        }
+        span:nth-child(6){
+            color: rgb(0, 89, 255);
+        }
+
+        div{text-align: center;}
+        /* <--div{width: 1000px; margin: auto;} */
+
+        input[type="text"]{
+            border-radius:50px ;
+            width: 500px;
+            height: 20px;
+            padding: 5px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>
+        <span>이</span>
+        <span>소</span>
+        <span>요</span>
+        <span>검</span>
+        <span>색</span>
+        <span>기</span>
+
+        
+    </h1>
+
+    <form action="https://www.google.co.kr/search" method="get">
+        <div>
+            <input type="text" name="q" placeholder="검색어를 입력하세요.">
+        </div>
+    </form>
+    
+</body>
+</html>

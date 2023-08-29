@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 여기부터 css 적용 -->
+    <style>
+        h1 {text-align: center; font-size: 100px; margin-top: 500px;}
+        .search-bar {text-align: center; }
+        /* 검색창 가운데로 정렬 */
+        h1 span:nth-child(1){color: #4285f3;}
+        h1 span:nth-child(2){color: #ea4435;}
+        h1 span:nth-child(3){color: #fbbc04;}
+        h1 span:nth-child(4){color: #4285f3;}
+        h1 span:nth-child(5){color: #33a952;}
+        h1 span:nth-child(6){color: #fbbc04;}
+        /* 제목 색갈 넣기 */
+        input[type="text"]{border-radius: 20px; height: 40px; border-color: aqua;}
+        /* 검색창 둥글게 하고 테두리 넣기 */
+    </style>
+</head>
+<body>
+    <!-- 여기부터 제목 -->
+    <h1>
+        <span>양</span>
+        <span>지</span>
+        <span>훈</span>
+        <span>검</span>
+        <span>색</span>
+        <span>기</span>
+    </h1>
+    <!-- 여기부터 검색창 -->
+    <form action="https://www.google.co.kr/search" method="get">
+    <!-- action은 구글과 검색창 연결 -->
+        <div class="search-bar">
+            <input type="text" name="q" size="65px" placeholder="Google 검색 또는 URL 입력">
+        </div>
+    </form>
+</body>
+</html>

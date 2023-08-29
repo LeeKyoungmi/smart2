@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 제목에 사이즈와 위치조정 */
+        h1{font-size: 100px; text-align: center; margin-top:300px;}
+        /*span꾸며주기 span하나씩 지정해주는 태그사용*/
+        h1 span:nth-child(1){color: #4284f3;}
+        h1 span:nth-child(2){color: #ea4335;}
+        h1 span:nth-child(3){color: #fbbd03;}
+        h1 span:nth-child(4){color: #4284f3;}
+        h1 span:nth-child(5){color: #32a952;}
+        h1 span:nth-child(6){color: #ea4335;}
+        /* input꾸며주기 border-radius 테두리 둥글게 만드는 태그*/
+        .search-bar {text-align: center;}
+        input[type="text"]{border-radius: 20px; height: 40px; border-color: #4284f3;}
+    </style>
+</head>
+<body>
+    <!-- 제목 -->
+    <h1>
+        <span>김</span>
+        <span>민</span>
+        <span>준</span>
+        <span>검</span>
+        <span>색</span>
+        <span>기</span>
+    </h1>
+
+    <!-- 검색어 입력 폼 -->
+    <form action="https://google.co.kr/search" method="get">
+        <div class="search-bar">
+            <input type="text" name="q" size="65px" placeholder="Google 검색 또는 URL 입력">
+        </div>
+    </form>
+
+</body>
+</html>

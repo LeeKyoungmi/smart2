@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>준수이 검색기</title>
+    <style>
+        h1 {font-size: 125px;text-align: center; margin: 300px; }
+        h1 span:nth-child(1){color:#4285f3;}
+        h1 span:nth-child(2){color:#e94435;}
+        h1 span:nth-child(3){color:#fabd04;}
+        h1 span:nth-child(4){color:#4285f3;}
+        h1 span:nth-child(5){color:#33a852;}
+        h1 span:nth-child(6){color:#e94435;}
+
+        .search-bar{text-align: center;}
+        input[type="text"]{border-radius: 20px; height: 40px; border-color: #4285f3;} 
+    </style>
+</head>
+<body>
+    <h1>
+        <span>준</span>
+        <span>수</span>
+        <span>이</span>
+        <span>검</span>
+        <span>색</span>
+        <span>기</span>
+    </h1>
+    <!-- 검색아 압력폼 -->
+    <form action="https://www.google.co.kr/search" method="get">
+        <div class="search-bar">
+            <input type="text" name="q" size="65px" placeholder="준수이한테 물어보기">
+            <!-- 텍스트타입의 이름과 사이즈 힌트 주기 -->
+        </div>
+    </form>
+</body>
+</html>

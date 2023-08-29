@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mmatto</title>
+    <style>
+        h1{text-align: center;}
+        .search-bar{text-align: center;}
+        /* n번째 자손 선택 */
+       h1 span:nth-child(1){color: blue;}
+       h1 span:nth-child(2){color: red;}
+       h1 span:nth-child(3){color: rgb(248, 223, 0);}
+       h1 span:nth-child(4){color: blue;}
+       h1 span:nth-child(5){color: green;}
+        h1{font-size: 75px;}
+        input[type="text"]{border-radius: 20px; height: 40px; border-color: rgb(255, 255, 255); box-shadow: 0px 0px 10px rgb(178, 178, 178);}
+                           /* 둥글게 만들기 */
+    </style>
+</head>
+<body style="padding-top: 350px;">
+       <!-- 패딩 크기 -->
+    <h1>
+        <span>마</span>
+        <span>토</span>
+        <span>검</span>
+        <span>색</span>
+        <span>기</span>
+    </h1>
+    <form action="https://www.google.co.kr/?hl=ko" method="get">
+        <div class="search-bar">
+            <input type="text" name="q" size="65px" placeholder="Google 검색 또는 URL 입력">    
+        </div>
+    </form>
+</body>
+</html>

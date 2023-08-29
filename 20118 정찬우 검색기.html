@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>untitled</title>
+    <style>
+    
+    body {
+        background-image: url(./images/Dallas.jpeg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    @font-face {
+    font-family: 'ClimateCrisisKRVF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/ClimateCrisisKRVF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    h1 {
+        font-size: 90px;
+        font-family: 'ClimateCrisisKRVF';
+        text-align: center;
+        text-shadow: 0px 0px 4px rgb(255, 181, 61);
+        margin-top: 300px;
+    }
+
+        h1 span:nth-child(1) {
+            color: white;
+        }
+
+        h1 span:nth-child(2) {
+            color: rgb(62, 142, 255);
+        }
+
+        .search {
+            text-align: center;
+        }
+
+        input {
+            border: 2px solid rgb(62, 142, 255);
+            height: 60px;
+            text-align: center;
+            border-radius: 40px;
+
+        }
+
+    </style>
+</head>
+<body>
+   <h1>
+    <span id="pay">PAY</span>
+    <span id="day">DAY</span>
+   </h1> 
+   <!-- 검색어 입력 폼 -->
+   <form action="https://www.google.co.kr/search" method="get">
+    <div class="search">
+        <input type="text" size="80"  name="PD" placeholder="Google search engine" method="get">
+    </div>
+   </form>
+</body>
+</html>

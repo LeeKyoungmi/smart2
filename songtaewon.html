@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{font-size: 100px; text-align: center;}
+        /* 글자크기 */
+        h1>span:nth-child(1) {color: red;}
+        h1>span:nth-child(2) {color: green;}
+        h1>span:nth-child(3) {color: blue;}
+        h1>span:nth-child(4) {color: red;}
+        h1>span:nth-child(5) {color: green;}
+        h1>span:nth-child(6) {color: blue;}
+        /* 글자색 */
+
+        .search-bar {text-align: center;}
+        input[type="text"]{border-radius: 20px; height: 40px; border-color: aquamarine; text-align: center;}
+    </style>
+</head>
+<body>
+    <h1>
+        <span>한</span>
+        <span>미</span>
+        <span>고</span>
+        <span>검</span>
+        <span>색</span>
+        <span>기</span>
+    </h1>
+    <!-- 제목 -->
+
+    <!-- 검색어 입력 중 -->
+    <form action="https://www.google.co.kr/search" method="">
+        <div class="search-bar">
+            <input type="text" name="q" size="65px" placeholder="google 검색값 입룍">
+        </div>
+    </form>
+</body>
+</html>

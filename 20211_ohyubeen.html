@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        h1 {font-size: 150px; text-align: center; margin-top: 400px;}
+        input {size: 500px;}
+        /* span n번째 자손 선택 */
+        span:nth-child(1) {color: rgb(66, 133, 244);}
+        span:nth-child(2) {color: rgb(234, 67, 53);}
+        span:nth-child(3) {color: rgb(251, 188, 5);}
+        span:nth-child(4) {color: rgb(66, 133, 244);}
+        span:nth-child(5) {color: rgb(52, 168, 83);}
+        span:nth-child(6) {color: rgb(234, 67, 53);}
+        /* border-radius : 둥글게 */
+        div {text-align: center;}
+        input {width: 600px; height: 60px; border-radius: 50px; text-align: center; border-color: rgb(24, 24, 24);}
+    </style>
+
+    <!-- 한미고 검색기 inline -->
+    <h1>
+        <span>김</span>
+        <span>일</span>
+        <span>영</span>
+        <span>검</span>
+        <span>색</span>
+        <span>기</span>
+    </h1>
+
+    <!-- 검색어 입력 폼 -->
+    <!-- action : 보낼 위치 / method : 전송 방법 -->
+    <form action="https://www.google.co.kr/search" method="get">
+        <div class="search-bar">
+            <input type="text" name="q" size="70px;" placeholder="검색창">
+        </div>
+    </form>
+</body>
+</html>

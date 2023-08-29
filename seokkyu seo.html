@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 제목크기와제목 위치 */
+        h1{font-size: 100px;text-align: center;margin-top: 300px;}
+        /* 검색기 글자가 가운데로 올수있게한느것 */
+        input{text-align: center;}
+        /* 검색기사 창에서 가운데로 오게하는것 */
+        .section{text-align: center;}
+        /* 글자 색깔 */
+        h1 span:nth-child(1){color: #00fffb;;}
+        h1 span:nth-child(2){color: #ff45c7;;}
+        h1 span:nth-child(3){color: #754bff;;}
+        h1 span:nth-child(4){color: #ff4a4a;;}
+        h1 span:nth-child(5){color: #fff457;;}
+        h1 span:nth-child(6){color: #89ff5b;;} 
+          /*검색기에 배경색깔과 크기와 둥굴기를 만드는것이다*/
+        input[type="text"]{border-radius: 30px; height: 50px; background-color: #fff457;box-shadow: 8px 4px 1px 2px rgba(0, 0, 0, 0.6);}
+    </style>
+</head>
+<body>
+    <!-- 검색시 이름 -->
+      <h1>
+        <span>서</span> 
+        <span>석</span>
+        <span>규</span>
+        <span>검</span>
+        <span>색</span>
+        <span>기</span>
+      </h1>
+      <!-- 검색을 해줄장치와검색기에 기본을 제작함 -->
+      <form action="https://www.google.co.kr/search" method="get">
+        <div class="section">
+            <input type="text"name="q" size="100px" placeholder="궁금한게 있으면 물어봐">
+        </div>
+      </form>
+</body>
+</html>
